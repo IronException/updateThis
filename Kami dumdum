@@ -1,58 +1,44 @@
-20:02:56.543
-[20:02:56] [Client thread/INFO] [FML]: Itemstack injection complete
-20:02:56.561
-[20:02:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-20:02:56.876
-[20:02:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2847
-20:02:57.979
-[20:02:57] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
-20:02:58.207
-[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
-20:02:58.207
-[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-20:02:58.307
-[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
-20:02:58.585
-[20:02:58] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
-20:03:00.149
-[20:03:00] [Client thread/INFO] [FML]: Max texture size: 16384
-20:03:01.036
-[20:03:01] [Client thread/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
-20:03:02.857
-[20:03:02] [Client thread/INFO] [FML]: Applying holder lookups
-20:03:02.858
-[20:03:02] [Client thread/INFO] [FML]: Holder lookups applied
-20:03:02.878
-[20:03:02] [Client thread/INFO] [KAMI]:
-20:03:02.878
-20:03:02.878
-Initializing KAMI b9
-20:03:03.363
-[20:03:03] [Client thread/INFO] [KAMI]: Modules initialised
-20:03:03.602
-[20:03:03] [Client thread/INFO] [KAMI]: Commands initialised
-20:03:03.660
-[20:03:03] [Client thread/INFO] [KAMI]: Settings loaded
-20:03:03.661
-[20:03:03] [Client thread/INFO] [KAMI]: KAMI Mod initialized!
-20:03:03.661
-20:03:03.669
-[20:03:03] [Client thread/INFO] [FML]: Injecting itemstacks
-20:03:03.670
-[20:03:03] [Client thread/INFO] [FML]: Itemstack injection complete
-20:03:03.935
-[20:03:03] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-20:03:04.115
-[20:03:04] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
-20:03:07.789
-[20:03:07] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:save:3431]: Shutting down: saving KAMI configuration
-20:03:07.798
-[20:03:07] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:save:3433]: Configuration saved.
-20:03:07.819
-[20:03:07] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
-20:03:07.820
-[20:03:07] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
-20:03:08.031
-[20:03:08] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
-20:03:08.327
-Process ended with exit code 0
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:263) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:241) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1144) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:254) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[KAMI-b9-release.jar:?]
+20:08:23.191
+at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+20:08:23.191
+at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+20:08:23.191
+at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_51]
+20:08:23.191
+at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_51]
+20:08:23.191
+at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+20:08:23.191
+... 6 more
+20:08:23.192
+Exception in thread "main" [20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Runtime.exit(Runtime.java:107)
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.System.exit(System.java:971)
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+20:08:23.193
+[20:08:23] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
