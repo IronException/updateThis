@@ -1,0 +1,58 @@
+20:02:56.543
+[20:02:56] [Client thread/INFO] [FML]: Itemstack injection complete
+20:02:56.561
+[20:02:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+20:02:56.876
+[20:02:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2847
+20:02:57.979
+[20:02:57] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+20:02:58.207
+[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+20:02:58.207
+[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+20:02:58.307
+[20:02:58] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+20:02:58.585
+[20:02:58] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+20:03:00.149
+[20:03:00] [Client thread/INFO] [FML]: Max texture size: 16384
+20:03:01.036
+[20:03:01] [Client thread/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+20:03:02.857
+[20:03:02] [Client thread/INFO] [FML]: Applying holder lookups
+20:03:02.858
+[20:03:02] [Client thread/INFO] [FML]: Holder lookups applied
+20:03:02.878
+[20:03:02] [Client thread/INFO] [KAMI]:
+20:03:02.878
+20:03:02.878
+Initializing KAMI b9
+20:03:03.363
+[20:03:03] [Client thread/INFO] [KAMI]: Modules initialised
+20:03:03.602
+[20:03:03] [Client thread/INFO] [KAMI]: Commands initialised
+20:03:03.660
+[20:03:03] [Client thread/INFO] [KAMI]: Settings loaded
+20:03:03.661
+[20:03:03] [Client thread/INFO] [KAMI]: KAMI Mod initialized!
+20:03:03.661
+20:03:03.669
+[20:03:03] [Client thread/INFO] [FML]: Injecting itemstacks
+20:03:03.670
+[20:03:03] [Client thread/INFO] [FML]: Itemstack injection complete
+20:03:03.935
+[20:03:03] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+20:03:04.115
+[20:03:04] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+20:03:07.789
+[20:03:07] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:save:3431]: Shutting down: saving KAMI configuration
+20:03:07.798
+[20:03:07] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:save:3433]: Configuration saved.
+20:03:07.819
+[20:03:07] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
+20:03:07.820
+[20:03:07] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+20:03:08.031
+[20:03:08] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+20:03:08.327
+Process ended with exit code 0
